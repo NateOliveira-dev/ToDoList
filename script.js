@@ -5,6 +5,7 @@ function armazenaTarefa() {
     const criaLi = document.createElement('li');
     criaLi.innerText = textoTarefa;
     pegaOl.appendChild(criaLi);
+    novaTarefa.value='';
 }
 
 const btnNovaTarefa = document.getElementById('criar-tarefa');
