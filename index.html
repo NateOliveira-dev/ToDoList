@@ -5,26 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel='stylesheet' href='./style.css'>
     <title>Lista de Tarefas</title>
 </head>
 
 <body>
-    <header>
-        <h1>Minha Lista de Tarefas</h1>
-        <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
-    </header>
-    <section>
-        <div id="btn-nova-tarefa">
-            <button id="criar-tarefa">Criar Tarefa!</button>
-            <input type="text" name="botão nova tarefa" id="texto-tarefa">
-        </div>
-    </section>
-    <main>
-        <div id="lista">
-            <ol id="lista-tarefas"></ol>
-        </div>
-    </main>
+    <header>Minha Lista de Tarefas</header>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <input id="texto-tarefa" type="text">
+    <button id="criar-tarefa">Criar Tarefa</button>
+    <button id="apaga-tudo">Apagar</button>
+    <button id="remover-finalizados">Remover Finalizados</button>
+    <button id="salvar-tarefas">Salvar tarefas</button>
+    <button id="remover-selecionado">Remover Selecionado</button>
+    <button id="mover-cima">Mover para cima</button>
+    <button id="mover-baixo">Mover para baixo</button>
+    <ol id="lista-tarefas"></ol>
     <script src="./script.js"></script>
 </body>
 
