@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .section {
   width: 1250px;
   display: inline-flex;
@@ -12,24 +13,29 @@ body {
   border-top: 1px solid gray;
   border-left: 4px solid lightblue;
 }
+
 .container {
   margin-top: 15px;
   padding-left: 25px;
   max-width: 100%;
   align-content: center;
 }
+
 .completed {
-  text-decoration: line-through;
+  text-decoration: line-through solid black;
+
 }
+
 .inpt {
   border-top: none;
   border-left: none;
   border-right: none;
 }
+
 .inpt:focus {
   outline: none;
 }
-  
+
 .btn {
   width: 105px;
   height: 35px;
@@ -40,44 +46,36 @@ body {
   transition: background 0.5s;
   margin-left: 25px;
 }
-  
+
 .btn:active {
   box-shadow: 1px 1px lightgrey;
   transform: translateY(4px);
 }
-  
+
 .save:hover {
   background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%
 }
-  
+
 .del {
   color: #600202;
 }
-  
-#remover-finalizados {
-  text-decoration: line-through;
-}
-  
-#remover-selecionado {
-  text-decoration: overline underline;
-}
-  
+
 .del:hover {
   background: #f54d47 radial-gradient(circle, transparent 1%, #f54d47 1%) center/15000%
 }
-  
+
 .new {
   color: green;
 }
-  
+
 .new:hover {
   background: #9bf547 radial-gradient(circle, transparent 1%, #9bf547 1%) center/15000%
 }
-  
+
 .change {
   color: #3d5215;
 }
-  
+
 .change:hover {
   background: #c4f547 radial-gradient(circle, transparent 1%, #c4f547 1%) center/15000%
 }
@@ -85,7 +83,3 @@ body {
 .selected {
   background-color: gray;
 }
-
-.completed {
-  text-decoration: line-through solid black;
-} 
